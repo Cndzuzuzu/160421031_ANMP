@@ -50,10 +50,7 @@ class GameFragment : Fragment() {
             }
         }
 
-        binding.btnBack.setOnClickListener {
-            val action = GameFragmentDirections.actionMainFragment()
-            Navigation.findNavController(it).navigate(action)
-        }
+
     }
 
 
